@@ -1,0 +1,23 @@
+{
+  "name": "decimal_to_roman",
+  "version": "1.0.0",
+  "description": "Coding Review",
+  "main": "decimal_to_roman.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "interview"
+  ],
+  "author": "Anuj Patel",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2",
+    "should": "^7.1.0",
+    "underscore": "^1.8.3",
+    "underscore.object.plus": "^1.0.0",
+    "util": "^0.10.3",
+    "utils": "^0.2.2"
+  }
+}
