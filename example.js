@@ -3,7 +3,7 @@ var _ = require('underscore.object.plus');
 var util = require('util');
 
 
-_.each([10, 11, 140], function(value){
+_.each([10, 11, 140, 150], function(value){
 	var roman = converter.decimalToRoman(value);
 	var decimal = converter.romanToDecimal(roman);
 
